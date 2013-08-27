@@ -1,0 +1,9 @@
+[user]
+	name = Yini Bao
+	email = baoeni@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = /usr/bin/vim
+[color]
+	ui = true

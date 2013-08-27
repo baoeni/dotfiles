@@ -1,0 +1,52 @@
+# IF
+snippet if
+	<TMPL_IF ${1}>
+	${2}
+	</TMPL_IF>
+
+# IF
+snippet if2
+	<TMPL_IF [% ${1} %]>
+	${2}
+	</TMPL_IF>
+
+
+# IFElse
+snippet ife
+	<TMPL_IF [% ${1} %]>
+	${2}
+	<TMPL_ELSE>
+	
+	</TMPL_IF>
+
+# IFElseif
+snippet ifel
+	<TMPL_IF [% ${1} %]>
+	${2}
+	<TMPL_ELSIF [% %]>
+	
+	</TMPL_IF>
+
+# UNLESS
+snippet un
+	<TMPL_UNLESS ${1}>
+	${2}
+	</TMPL_UNLESS>
+
+
+# VAR
+snippet var
+	<TMPL_VAR ${1}>
+
+# LOOP
+snippet loop
+	<TMPL_LOOP ${1}>
+	
+	</TMPL_LOOP>
+
+#SETVAR
+snippet sv
+	<TMPL_SETVAR ${1}>${2}</TMPL_SETVAR>
+
+
+
